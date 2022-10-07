@@ -14,7 +14,9 @@
 	color: rgb(51, 42, 42);
 	text-decoration: none;
 }
-
+html{
+	scroll-behavior:smooth;
+}
 /*Header Start*/
 header {
 	min-width: 100%;
