@@ -1,0 +1,6 @@
+{
+    "prettier.bracketSameLine": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
+}
