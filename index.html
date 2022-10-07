@@ -2,14 +2,29 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
 		<title>My Portfolio</title>
-		<link rel="stylesheey" href="/scss/normalize.css" />
-		<link rel="stylesheet" href="/scss/main.css" />
-		<link rel="icon" href="img/browser.png" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="scss/_normalize.scss" />
+		<link
+			rel="stylesheet"
+			href="scss/main.css" />
+		<link
+			rel="icon"
+			href="img/browser.png" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,700&display=swap"
 			rel="stylesheet" />
@@ -20,16 +35,14 @@
 
 	<body>
 		<header class="navigation">
-			<nav>
-				<div class="navbar-container">
-					<div class="navbar name"><h1>E.S</h1></div>
-					<div class="navbar list">
-						<ul>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#aboutme">About me</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</div>
+			<nav class="navbar-container">
+				<div class="navbar name"><h2>E.S</h2></div>
+				<div class="navbar list">
+					<ul>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#aboutme">About me</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</div>
 			</nav>
 		</header>
@@ -50,11 +63,7 @@
 						contact me for more infomation.
 					</p>
 					<div class="homepage-contact">
-						<button type="submit" href="#contact">
-							<span class="button-text"
-								><a href="#contact">Say, Hello!</a></span
-							>
-						</button>
+						<span class="button-text"><a href="#contact">Say, Hello!</a></span>
 					</div>
 				</div>
 
@@ -63,22 +72,30 @@
 				<aside>
 					<ul>
 						<li>
-							<a href="https://twitter.com/DonEdots" target="_blank"
+							<a
+								href="https://twitter.com/DonEdots"
+								target="_blank"
 								><i class="fa-brands fa-twitter"></i
 							></a>
 						</li>
 						<li>
-							<a href="mailto:erik.strahle94@gmail.com" target="_blank"
+							<a
+								href="mailto:erik.strahle94@gmail.com"
+								target="_blank"
 								><i class="fa-solid fa-envelope"></i
 							></a>
 						</li>
 						<li>
-							<a href="https://github.com/Edots112" target="_blank"
+							<a
+								href="https://github.com/Edots112"
+								target="_blank"
 								><i class="fa-brands fa-github"></i
 							></a>
 						</li>
 						<li>
-							<a href="https://www.facebook.com/erik.strahle.5" target="_blank"
+							<a
+								href="https://www.facebook.com/erik.strahle.5"
+								target="_blank"
 								><i class="fa-brands fa-facebook"></i
 							></a>
 						</li>
@@ -93,16 +110,18 @@
 				</aside>
 			</div>
 		</section>
-		<section class="projects" id="projects">
+		<section 				
+			class="projects"
+			id="projects">
 			<div class="project heading"><span>Projects.</span></div>
 			<div class="project-container">
 				<div class="project project-one">
 					<div class="filter"></div>
 					<div class="heading-project-one">Project01.</div>
 					<div class="picture">
-						<a href="https://github.com/Medieinstitutet/cv-med-css-Edots112"
-							><img src="/img/mobil_startsida.jpg" alt="homepage to the moon"
-						/></a>
+						<img
+							src="img/mobil_startsida.jpg"
+							alt="homepage to the moon" />
 					</div>
 					<div class="about-project-one">About:</div>
 					<ul>
@@ -130,8 +149,11 @@
 				</div>
 			</div>
 		</section>
-		<section class="about" id="aboutme">
-			<div class="aboutme heading"><span>About me.</span></div>
+		<section
+									
+			class="about"
+			id="aboutme">
+			<div class="aboutme heading"><span >About me.</span></div>
 			<div class="aboutme-container">
 				<div class="about-me one">
 					<p class="about-me-textone">
@@ -180,20 +202,39 @@
 				<div class="about-me two">
 					<div class="border"></div>
 					<div class="about-me-img">
-						<img src="/img/poträtt.jpg" alt="" />
+						<img
+							src="img/poträtt.jpg"
+							alt="picture" />
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="contactpage" id="contact">
+		<section
+			
+			class="contactpage"
+			id="contact">
 			<div class="contact-me heading"><span>Contact me.</span></div>
 			<div class="contact-container">
 				<div class="contact-formula">
 					<fieldset>
-						<label>First Name: <input type="text" required /></label>
-						<label>Last Name: <input type="text" required /></label>
-						<label>Email:<input type="email" required /></label>
+						<label
+							>First Name:
+							<input
+								type="text"
+								required
+						/></label>
+						<label
+							>Last Name:
+							<input
+								type="text"
+								required
+						/></label>
+						<label
+							>Email:<input
+								type="email"
+								required
+						/></label>
 						<label
 							>Write me a message:
 							<textarea
@@ -203,32 +244,48 @@
 						</label>
 					</fieldset>
 					<div class="button">
-						<button class="buttoncontact" type="submit" id="#contact">
+						<button
+							tabindex="0"
+							class="buttoncontact"
+							type="submit"
+							id="#contact">
 							Submit
 						</button>
 					</div>
 				</div>
 			</div>
-			<a class="contact-home" href="#"><i class="fa-solid fa-house"></i></a>
+			<a
+				class="contact-home"
+				href="#"
+				><i class="fa-solid fa-house"></i
+			></a>
 			<div class="mobile-socials">
 				<ul>
 					<li>
-						<a href="https://twitter.com/DonEdots" target="_blank"
+						<a
+							href="https://twitter.com/DonEdots"
+							target="_blank"
 							><i class="fa-brands fa-twitter"></i
 						></a>
 					</li>
 					<li>
-						<a href="mailto:erik.strahle94@gmail.com" target="_blank"
+						<a
+							href="mailto:erik.strahle94@gmail.com"
+							target="_blank"
 							><i class="fa-solid fa-envelope"></i
 						></a>
 					</li>
 					<li>
-						<a href="https://github.com/Edots112" target="_blank"
+						<a
+							href="https://github.com/Edots112"
+							target="_blank"
 							><i class="fa-brands fa-github"></i
 						></a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/erik.strahle.5" target="_blank"
+						<a
+							href="https://www.facebook.com/erik.strahle.5"
+							target="_blank"
 							><i class="fa-brands fa-facebook"></i
 						></a>
 					</li>
